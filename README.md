@@ -4,15 +4,15 @@ Is a Lightweight configuration file made for all those aplications than need one
 ```c#
 ::{path}
     {key}>>{value}
-    ::{subPath}
-        {key}>>{value}
+::{subPath}
+    {key}>>{value}
 ```
 
 ```c#
 ::config
-    debug>>true
-    ::production
-        port>>80
+    $port>>3000
+::production
+    $ports>>[80, 8080]
 ```
 
 This are the supported data types for the values.
