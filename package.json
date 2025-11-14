@@ -1,0 +1,33 @@
+{
+  "name": "lcf-lib",
+  "version": "1.0.0",
+  "description": "Lightweight Config File (lcf) parser for Node.js (ESM + TypeScript)",
+  "author": "d4nilpzz",
+  "license": "MIT",
+  "homepage": "https://github.com/d4nilpzz/lcf-lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d4nilpzz/lcf-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/d4nilpzz/lcf-lib/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "typescript": "^5.5.0"
+  },
+  "keywords": ["config", "parser", "lcf", "configuration", "typescript", "nodejs"]
+}
