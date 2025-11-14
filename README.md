@@ -32,7 +32,7 @@ true/false
 0.50
 ```
 
-Also if you are using vscode and other code editor u can install lcf-linter.
+Also if you are using vscode and other code editor u can install `Lightweight Config File Extension`.
 
 ```
 ${key}>>{value}
