@@ -52,6 +52,6 @@ import { LCFConfig } from "lcf-lib"
 const config = LCFConfig("./config.lcf")
 
 const debug = config.get("config:debug")
-const port = config.get("production:ports")
+const ports = config.get("production:ports")
 ```
 
