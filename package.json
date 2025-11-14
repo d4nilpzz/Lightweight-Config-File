@@ -1,6 +1,6 @@
 {
   "name": "lcf-lib",
-  "version": "1.0.0",
+  "version": "25.1.0",
   "description": "Lightweight Config File (lcf) parser for Node.js (ESM + TypeScript)",
   "author": "d4nilpzz",
   "license": "MIT",
