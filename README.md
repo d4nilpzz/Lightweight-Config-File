@@ -47,11 +47,11 @@ npm install lcf-lib
 ```
 Now you can use the lib.
 ```ts
-import { LCFConfigInstance } from "lcf-lib"
+import { LCFConfig } from "lcf-lib"
 
-const config = LCFConfigInstance("./config.lcf")
+const config = LCFConfig("./config.lcf")
 
 const debug = config.get("config:debug")
-const debug = config.get("production:port")
+const port = config.get("production:ports")
 ```
 
