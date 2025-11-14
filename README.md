@@ -52,6 +52,6 @@ import { LCFConfigInstance } from "lcf-lib"
 const config = LCFConfigInstance("./config.lcf")
 
 const debug = config.get("config:debug")
-const debug = config.get("config:production:port")
+const debug = config.get("production:port")
 ```
 
